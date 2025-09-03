@@ -9,7 +9,15 @@ int main (){
    float PIB = 21.19147;
    int pontos = 23; 
 
-    printf("Carta 1\n");
+   char estado2 = 'B';
+   char carta2[20] = "BA2";
+   char cidade2[20] = "Salvador";
+   int população2 = 4.029910;
+   float area2 = 693.442;
+   float pib2 = 62.954;
+   int pontos2 = 10;
+
+    printf("Carta 1:\n");
 
    printf("Estado: %c\n", estado);
    printf("Código da Carta: %s\n", carta);
@@ -17,15 +25,16 @@ int main (){
    printf("População: %d\n", população);
    printf("Área em km: %f\n", area);
    printf("PIB: %f\n", PIB);
-   printf("Número de Pontos Turísticos: %d\n", pontos);
-
-
-   printf("Carta 2.\n");
-   int
-   char estado2 = 'A';
-   char carta2[20] = "AM2";
-   char cidade2[20] = "Manaus"; 
-
+   printf("Número de Pontos Turísticos: %d\n\n", pontos);
+   
+   printf("Carta 2:");
+   printf("Estado: %c\n", estado2);
+   printf("Código da Carta: %s\n", carta2);
+   printf("Nome da Cidade: %s\n", cidade2);
+   printf("População: %d\n", população2);
+   printf("Área em km: %f\n", area2);
+   printf("PIB: %f\n", pib2);
+   printf("Número de Pontos Turísticos: %d\n\n", pontos2);
 
     return 0;
 }
