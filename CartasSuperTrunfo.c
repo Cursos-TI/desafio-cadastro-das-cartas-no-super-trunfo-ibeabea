@@ -9,6 +9,8 @@ int main (){
    float PIB = 21.19147;
    int pontos = 23; 
 
+
+   printf("Carta: %d\n", carta);
    printf("Estado: %c\n", estado);
    printf("Código da Carta: %s\n", codigo);
    printf("Nome da Cidade: %s\n", cidade);
