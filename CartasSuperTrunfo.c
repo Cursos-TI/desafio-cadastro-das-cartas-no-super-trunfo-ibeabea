@@ -27,7 +27,7 @@ int main (){
    printf("PIB: %f\n", PIB);
    printf("Número de Pontos Turísticos: %d\n\n", pontos);
    
-   printf("Carta 2:");
+   printf("Carta 2: \n");
    printf("Estado: %c\n", estado2);
    printf("Código da Carta: %s\n", carta2);
    printf("Nome da Cidade: %s\n", cidade2);
