@@ -18,7 +18,7 @@ int main (){
    float pib2;
    int pontos2;
 
-   printf("Carta 1:\n");
+   printf("Carta 1.\n");
    printf("Estado: \n");
    scanf("%c", &estado);
 
@@ -37,10 +37,10 @@ int main (){
    printf("PIB: \n");
    scanf("%f", &PIB);
 
-   printf("Pontos Turísticos: \n\n");
+   printf("Pontos Turísticos: \n");
    scanf("%d", &pontos);
    
-   printf("Carta 2: \n");
+   printf("Carta 2.\n");
    printf("Estado: \n");
    scanf("%s", &estado2);
 
