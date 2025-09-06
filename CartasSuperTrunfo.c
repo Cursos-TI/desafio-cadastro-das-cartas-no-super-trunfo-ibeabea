@@ -1,40 +1,66 @@
 #include <stdio.h>
 
 int main (){
-    char estado =  'P';
-   char carta[20] = "PA1";
-   char cidade[20] = "Belém";
-   int população = 1303.389;
-   float area = 1.059458;
-   float PIB = 21.19147;
-   int pontos = 23; 
+    
+   char estado[1];
+   char carta[3];
+   char cidade[20];
+   int população;
+   float area;
+   float PIB;
+   int pontos; 
 
-   char estado2 = 'B';
-   char carta2[20] = "BA2";
-   char cidade2[20] = "Salvador";
-   int população2 = 4.029910;
-   float area2 = 693.442;
-   float pib2 = 62.954;
-   int pontos2 = 10;
+   char estado2;
+   char carta2[3];
+   char cidade2[20];
+   int população2;
+   float area2;
+   float pib2;
+   int pontos2;
 
-    printf("Carta 1:\n");
+   printf("Carta 1:\n");
+   printf("Estado: \n");
+   scanf("%c", &estado);
 
-   printf("Estado: %c\n", estado);
-   printf("Código da Carta: %s\n", carta);
-   printf("Nome da Cidade: %s\n", cidade);
-   printf("População: %d\n", população);
-   printf("Área em km: %f\n", area);
-   printf("PIB: %f\n", PIB);
-   printf("Número de Pontos Turísticos: %d\n\n", pontos);
+   printf("Código da Carta: \n");
+   scanf("%s", &carta);
+
+   printf("Nome da Cidade: \n");
+   scanf("%s", &cidade);
+
+   printf("População: \n");
+   scanf("%d", &população);
+
+   printf("Área em km: \n");
+   scanf("%f", &area);
+
+   printf("PIB: \n");
+   scanf("%f", &pib);
+
+   printf("Pontos Turísticos: \n\n");
+   scanf("%d", &pontos);
    
    printf("Carta 2: \n");
-   printf("Estado: %c\n", estado2);
-   printf("Código da Carta: %s\n", carta2);
-   printf("Nome da Cidade: %s\n", cidade2);
-   printf("População: %d\n", população2);
-   printf("Área em km: %f\n", area2);
-   printf("PIB: %f\n", pib2);
-   printf("Número de Pontos Turísticos: %d\n\n", pontos2);
+   printf("Estado: \n");
+   scanf("%s", &estado2);
+
+   printf("Código da Carta: \n");
+   scanf("%s", &carta2);
+
+   printf("digite o nome da cidade: \n");
+    scanf(" %s", &cidade2);
+
+   printf("População: \n");
+   scanf("%d", &população2);
+
+   printf("Área em km: \n");
+   scanf("%f", &area2);
+
+   printf("PIB: \n");
+   scanf("%f", &pib2);
+
+   printf("Pontos Turísticos: \n");
+   scanf("%d", &pontos2);
 
     return 0;
 }
