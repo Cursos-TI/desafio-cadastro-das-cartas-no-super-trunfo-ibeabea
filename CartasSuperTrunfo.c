@@ -1,22 +1,66 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main (){
+    
+   char estado[1];
+   char carta[3];
+   char cidade[20];
+   int população;
+   float area;
+   float PIB;
+   int pontos; 
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+   char estado2;
+   char carta2[3];
+   char cidade2[20];
+   int população2;
+   float area2;
+   float pib2;
+   int pontos2;
+
+   printf("Carta 1.\n");
+   printf("Estado: \n");
+   scanf("%c", &estado);
+
+   printf("Código da Carta: \n");
+   scanf("%s", &carta);
+
+   printf("Nome da Cidade: \n");
+   scanf("%s", &cidade);
+
+   printf("População: \n");
+   scanf("%d", &população);
+
+   printf("Área em km: \n");
+   scanf("%f", &area);
+
+   printf("PIB: \n");
+   scanf("%f", &PIB);
+
+   printf("Pontos Turísticos: \n");
+   scanf("%d", &pontos);
+   
+   printf("Carta 2.\n");
+   printf("Estado: \n");
+   scanf("%s", &estado2);
+
+   printf("Código da Carta: \n");
+   scanf("%s", &carta2);
+
+   printf("digite o nome da cidade: \n");
+    scanf(" %s", &cidade2);
+
+   printf("População: \n");
+   scanf("%d", &população2);
+
+   printf("Área em km: \n");
+   scanf("%f", &area2);
+
+   printf("PIB: \n");
+   scanf("%f", &pib2);
+
+   printf("Pontos Turísticos: \n");
+   scanf("%d", &pontos2);
 
     return 0;
 }
