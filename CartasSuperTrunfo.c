@@ -3,8 +3,8 @@
 int main (){
 
    // CARTA 1
-   char estado[3];
-   char carta[3];
+   char estado[10];
+   char carta[10];
    char cidade[20];
    int população;
    float area;
@@ -14,8 +14,8 @@ int main (){
    float percapita;
 
    // CARTA 2
-   char estado2[3];
-   char carta2[3];
+   char estado2[10];
+   char carta2[10];
    char cidade2[20];
    int população2;
    float area2;
@@ -28,7 +28,7 @@ int main (){
    printf("Carta 1.\n");
 
    printf("Estado: \n");
-   scanf("%c", &estado);
+   scanf("%s", &estado);
 
    printf("Código da Carta: \n");
    scanf("%s", &carta);
@@ -53,7 +53,7 @@ int main (){
    percapita = PIB / população;
 
    //ENTRADA CARTA 2
-   printf("\n\nCarta 2.\n");
+   printf("\nCarta 2.\n");
 
    printf("Estado: \n");
    scanf("%s", &estado2);
@@ -62,7 +62,7 @@ int main (){
    scanf("%s", &carta2);
 
    printf("digite o nome da cidade: \n");
-    scanf(" %s", &cidade2);
+    scanf("%s", &cidade2);
 
    printf("População: \n");
    scanf("%d", &população2);
@@ -89,8 +89,8 @@ int main (){
    printf("Área em km: %f\n", &area);
    printf("PIB: %f\n", &PIB);
    printf("Pontos Turísticos: %d\n", &pontos);
-   printf("Densidade Populacional: %.2f\n", &densidade);
-   printf("PIB per Capita: %.2f\n", &percapita);
+  printf("Densidade Populacional: %.2f km²\n",densidade);
+   printf("PIB per Capita: %.2f reais\n", percapita);
    
    //SAÍDA DA CARTA 2
    printf("Carta 2.\n");
@@ -101,8 +101,8 @@ int main (){
    printf("Área em km: %f\n", &area2);
    printf("PIB: %f\n", &pib2);
    printf("Pontos Turísticos: %d\n", &pontos2);
-   printf("Densidade Populacional: %.2f população2/area2\n", &densidade2);
-   printf("PIB per Capita: %.2f pib2/\n", &percapita2);
+   printf("Densidade Populacional: %.2f km²\n",densidade2);
+   printf("PIB per Capita: %.2f reais\n", percapita2);
 
     return 0;
 }
