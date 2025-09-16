@@ -1,24 +1,32 @@
 #include <stdio.h>
 
 int main (){
-    
-   char estado[1];
+
+   // CARTA 1
+   char estado[3];
    char carta[3];
    char cidade[20];
    int população;
    float area;
    float PIB;
-   int pontos; 
+   int pontos;
+   float densidade;
+   float percapita;
 
-   char estado2;
+   // CARTA 2
+   char estado2[3];
    char carta2[3];
    char cidade2[20];
    int população2;
    float area2;
    float pib2;
    int pontos2;
+   float densidade2;
+   float percapita2;
 
+   // ENTRADA DA CARTA 1
    printf("Carta 1.\n");
+
    printf("Estado: \n");
    scanf("%c", &estado);
 
@@ -39,8 +47,14 @@ int main (){
 
    printf("Pontos Turísticos: \n");
    scanf("%d", &pontos);
-   
+
+   //divisão das cartas 1
+   densidade = população / area;
+   percapita = PIB / população;
+
+   //ENTRADA CARTA 2
    printf("Carta 2.\n");
+
    printf("Estado: \n");
    scanf("%s", &estado2);
 
@@ -62,5 +76,9 @@ int main (){
    printf("Pontos Turísticos: \n");
    scanf("%d", &pontos2);
 
+  //divisão das cartas 2
+   densidade = população2 / area2;
+   percapita = pib2 / população2;
+ 
     return 0;
 }
