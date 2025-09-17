@@ -28,7 +28,7 @@ int main (){
    printf("Carta 1.\n");
 
    printf("Estado: \n");
-   scanf("%s", &estado);
+   scanf("%c", &estado);
 
    printf("Código da Carta: \n");
    scanf("%s", &carta);
@@ -56,7 +56,7 @@ int main (){
    printf("\nCarta 2.\n");
 
    printf("Estado: \n");
-   scanf("%s", &estado2);
+   scanf("%c", &estado2);
 
    printf("Código da Carta: \n");
    scanf("%s", &carta2);
